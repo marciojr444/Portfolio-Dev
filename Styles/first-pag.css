@@ -1,0 +1,41 @@
+#first-pag {
+  background-image: url(/Assets/Images/Background_Intro.png);
+  background-size: cover;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#first-info {
+  width: 1040px;
+  height: 447px;
+}
+
+#infos-pessoais {
+
+  img {
+    width: 87px;
+    height: 87px;
+  }
+
+  h1 {
+    color: var(--gray-600);
+    font: var(--title-lg);
+  }
+
+  p:nth-child(2) {
+    color: var(--gray-500);
+    font: var(--subtitle);
+  }
+
+  #nome-destaque {
+    color: var(--red);
+  }
+
+  p:nth-child(4) {
+    color: var(--gray-400);
+    font: var(--text-sm);
+  }
+}
