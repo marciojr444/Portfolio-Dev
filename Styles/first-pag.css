@@ -8,9 +8,11 @@
   text-align: center;
 }
 
-#first-info {
+#apresentação {
   width: 1040px;
   height: 447px;
+  margin-inline: 163px;
+  /* padding-bottom: initial; */
 }
 
 #infos-pessoais {
@@ -18,16 +20,19 @@
   img {
     width: 87px;
     height: 87px;
+    margin-bottom: 56px;
   }
 
   h1 {
     color: var(--gray-600);
     font: var(--title-lg);
+    margin-bottom: 20px;
   }
 
   p:nth-child(2) {
     color: var(--gray-500);
     font: var(--subtitle);
+    margin-bottom: 8px;
   }
 
   #nome-destaque {
