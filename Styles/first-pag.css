@@ -6,13 +6,17 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+
+  nav {
+    margin-top: 80px;
+    gap: 16px;
+  }
 }
 
 #apresentação {
   width: 1040px;
   height: 447px;
   margin-inline: 163px;
-  /* padding-bottom: initial; */
 }
 
 #infos-pessoais {
@@ -43,4 +47,26 @@
     color: var(--gray-400);
     font: var(--text-sm);
   }
+}
+
+.icon {
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  strong {
+    font: var(--text-md);
+    color: var(--gray-500)
+  }
+
+
+  background-color: var(--gray-300);
+  border-top-right-radius: 40%;
+  border-top-left-radius: 40%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+
 }
