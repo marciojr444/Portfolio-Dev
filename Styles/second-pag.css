@@ -1,0 +1,21 @@
+#second-pag {
+  height: 917px;
+  text-align: center;
+  
+  #tit-second-pag {
+    margin-top: 72px;
+   
+    p {
+        margin-bottom: 8px;
+        color: var(--red);
+        font: var(--subtitle);
+    }
+
+    h2 {
+        color: var(--gray-600);
+        font: var(--title-md);
+    }
+  }
+  
+  /* border: solid red; */
+}

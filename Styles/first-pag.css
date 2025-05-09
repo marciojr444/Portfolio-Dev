@@ -11,6 +11,7 @@
     margin-top: 80px;
     gap: 16px;
   }
+
 }
 
 #apresentação {
@@ -20,7 +21,6 @@
 }
 
 #infos-pessoais {
-
   img {
     width: 87px;
     height: 87px;
@@ -59,14 +59,16 @@
 
   strong {
     font: var(--text-md);
-    color: var(--gray-500)
+    color: var(--gray-500);
   }
-
 
   background-color: var(--gray-300);
   border-top-right-radius: 40%;
   border-top-left-radius: 40%;
   border-bottom-left-radius: 40%;
   border-bottom-right-radius: 40%;
+}
 
+#seta {
+  margin-top: 94px;
 }
