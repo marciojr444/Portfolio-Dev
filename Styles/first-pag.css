@@ -21,11 +21,6 @@
 }
 
 #infos-pessoais {
-  img {
-    width: 87px;
-    height: 87px;
-    margin-bottom: 56px;
-  }
 
   h1 {
     color: var(--gray-600);
@@ -37,6 +32,12 @@
     color: var(--gray-500);
     font: var(--subtitle);
     margin-bottom: 8px;
+  }
+
+  #foto-de-perfil {
+    width: 112px;
+    height: 112px;
+    margin-bottom: 56px;
   }
 
   #nome-destaque {
