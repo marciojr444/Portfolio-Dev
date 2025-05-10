@@ -1,0 +1,56 @@
+#third-pag {
+    background-color: var(--gray-100);
+    height: 480px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 88px;
+
+    #tit-third-pag {
+
+        p {
+            font: var(--subtitle);
+            color: var(--red);
+            margin-bottom: 8px;
+        }
+
+        h2 {
+            font: var(--title-md);
+            color: var(--gray-600);
+        }
+    }
+}
+
+#secao-servicos {
+    margin-top: 56px;
+    margin-inline: inherit;
+    width: 888px;
+    height: 155px;
+    display: grid;
+    grid-auto-flow: column;
+    /* border: solid red; */
+}
+
+.servicos {
+    border: 0.5px solid var(--gray-200);
+    width: 280px;
+    text-align: start;
+    padding-left: 20px;
+    border-radius: 12px;
+
+    .foto-servico {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 48px;
+        height: 48px;
+    }
+
+    h3 {
+        font: var(--title-sm);
+        color: var(--gray-600);
+    }
+
+    p {
+        font: var(--text-sm);
+        color: var(--gray-500);
+    }
+}
