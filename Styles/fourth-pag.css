@@ -1,0 +1,62 @@
+#fourth-pag {
+  background-image: url(/Assets/Images/Background_Contacts.png);
+  background-size: cover;
+  height: 787px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 128px;
+
+  #tit-fourth-pag {
+    margin-bottom: 48px;
+
+    h3 {
+      font: var(--subtitle);
+      color: var(--purple);
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      font: var(--title-md);
+      color: var(--gray-600);
+      margin-bottom: 8px;
+    }
+
+    p {
+      font: var(--text-md);
+      color: var(--gray-500);
+    }
+  }
+}
+
+#secao-contatos {
+  width: 400px;
+  height: 320px;
+  margin-inline: inherit;
+  display: grid;
+  gap: 16px;
+}
+
+.contatos {
+  background-color: var(--gray-300);
+  width: 400px;
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 20px;
+
+  h3 {
+    text-align: left;
+    width: 280px;
+    margin-left: 12px;
+    font: var(--text-sm);
+    color: var(--gray-500);
+  }
+
+}
+
+.foto-contato {
+  width: 28px;
+  height: 28px;
+}
