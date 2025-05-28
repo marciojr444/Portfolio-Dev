@@ -1,5 +1,5 @@
 #first-pag {
-  background: url(./Assets/Images/Background_Intro.png);
+  background: url(../Assets/Images/Background_Intro.png);
   background-size: cover;
   height: 750px;
   display: flex;
